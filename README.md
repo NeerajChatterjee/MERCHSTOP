@@ -11,3 +11,8 @@ BINOD Merchandise website was a task submitted to the E CELL Web Team. The websi
 * *Flask*
 * *Python*
 
+## PROJECT VIDEO
+
+Check it out : 
+
+## SCREENSHOTS

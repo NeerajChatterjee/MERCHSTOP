@@ -13,6 +13,6 @@ BINOD Merchandise website was a task submitted to the E CELL Web Team. The websi
 
 ## PROJECT VIDEO
 
-Check it out : 
+<b>Check it out :<a href=https://drive.google.com/file/d/1vtkLnjeSqxa_DKiI3Qkp1kyo0zsgiwrL/view?usp=sharing target="blank">HERE</a></b> 
 
 ## SCREENSHOTS

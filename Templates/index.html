@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/index_home.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+    <title>Binod Merch</title>
+</head>
+<body>
+    <header>
+        <div class="top_heading">
+            <a href="/"><img src="{{url_for('static', filename = 'images/Binod_logo.png')}}" alt="Company Logo" class="logoimg"></a>
+            <h1>BINOD MERCHSTOP</h1>
+            <ul class="headercont">
+                <li><a href="#"><i class="fa fa-shopping-cart" style="font-size: 20px;position:relative;left: 8%;z-index: 2;"></i>&nbsp; &nbsp; Cart</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </div><br><br><br>
+    </header>
+    <nav>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#">Men's Fashion</a>
+                    <div class="dropdownmens">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="/men-summer/" target="_blank">Summer</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Winter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Women's Fashion</a>
+                    <div class="dropdownmens">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="/women-summer/" target="_blank">Summer</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Winter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Baby</a>
+                    <div class="dropdownmens">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#">Summer</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Winter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Mobiles</a></li>
+                <li><a href="#">Appliances</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <br>
+        <div class="welcome">
+            WELCOME! &nbsp; The wait is finally over
+        </div>
+        <div class="salecont">
+            <p class="font-effect-shadow-multiple">S</p>
+            <p class="font-effect-shadow-multiple">A</p>
+            <p class="font-effect-shadow-multiple">L</p>
+            <p class="font-effect-shadow-multiple">E</p>
+        </div>
+        <div class="iscont">
+            <p class="font-effect-shadow-multiple">IS</p>
+        </div>
+        <div class="livecont">
+            <p class="font-effect-shadow-multiple">L</p>
+            <p class="font-effect-shadow-multiple">I</p>
+            <p class="font-effect-shadow-multiple">V</p>
+            <p class="font-effect-shadow-multiple">E</p>
+        </div>
+        <!--Slideshow-->
+        <div class="slideshow middle">
+            <div class="slides">
+                <input type="radio" name="pic" id="pic1" checked>
+                <input type="radio" name="pic" id="pic2">
+                <input type="radio" name="pic" id="pic3">
+                <input type="radio" name="pic" id="pic4">
+                <input type="radio" name="pic" id="pic5">
+                <div class="slide s1">
+                    <img src="{{url_for('static', filename = 'images/sale.jpg')}}" alt="salepic">
+                </div>
+                <div class="slide">
+                    <img src="{{url_for('static', filename = 'images/babycare.jpg')}}" alt="salepic">
+                </div>
+                <div class="slide">
+                    <img src="{{url_for('static', filename = 'images/Menssale-2.jpg')}}" alt="salepic">
+                </div>
+                <div class="slide">
+                    <img src="{{url_for('static', filename = 'images/womensale.jpg')}}" alt="salepic">
+                </div>
+                <div class="slide">
+                    <img src="{{url_for('static', filename = 'images/cashback.png')}}" alt="salepic">
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="pic1" class="bar"></label>
+                <label for="pic2" class="bar"></label>
+                <label for="pic3" class="bar"></label>
+                <label for="pic4" class="bar"></label>
+                <label for="pic5" class="bar"></label>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="offersimage">
+            <img src="{{url_for('static', filename = 'images/sideoffers.jpg')}}" alt="sideoffer">
+        </div>
+        <div class="content">
+            <p class="offer">Exclusive offers on:</p><br>
+                <ul class="offers">
+                    <li >Men's Fashion</li><br>
+                    <li>Women's Fashion</li><br>
+                    <li>Baby Clothings</li><br>
+                    <li>Appliances</li><br>
+                    <li>Books</li><br>
+                </ul><br>
+            <p class="payment">Acceptable Payment Methods</p>
+            <br><br>
+            <div class="cashbacklogo">
+                <img src="{{url_for('static', filename = 'images/mastercard.jpg')}}" alt="cards">
+            </div>
+            </p>
+        </div>
+    </main>
+    <div class="color"></div>
+    <footer class="footer">
+        <div class="footerdiv">
+                <div class="div1">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+
+                    </ul>
+                </div>
+                <div class="div2">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="/contact-us/" target="_blank">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Returns and Exchange</a></li>
+                        <li><a href="#">Shipping</a></li>
+                    </ul>
+                </div>
+                <div class="div3">
+                    <h4>Online Shop</h4>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Appliances</a></li>
+                        <li><a href="#">Babycare</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="copyright">
+            &copy; 2021 | BINODMERCH
+        </div>
+    </footer>
+</body>
+</html>
